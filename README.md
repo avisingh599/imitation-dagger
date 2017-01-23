@@ -12,7 +12,7 @@ The implementation is tested on the problem of controlling the steering wheel of
 1. Python 3.0
 2. Keras with Tensorflow backend
 3. Numpy
-4. GymTORCS
+4. [Gym-TORCS](https://github.com/ugo-nama-kun/gym_torcs)
 
 ##Results
 
