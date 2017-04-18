@@ -1,20 +1,20 @@
-##Imitation Learning with Dataset Aggregation (DAGGER)
+## Imitation Learning with Dataset Aggregation (DAGGER)
 
 This repository implements a simple algorithm for imitation learning: [DAGGER](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)
 
 The implementation is tested on the problem of controlling the steering wheel of a vehicle (in simulation) from pixels alone. TORCS is used as the driving simulator, and Keras is used for training a Convolutional Neural Network on the steering angle prediction task.
 
-##Usage
+## Usage
 `python dagger.py`
 
-##Requirements
+## Requirements
 
 1. Python 3.0
 2. Keras with Tensorflow backend
 3. Numpy
 4. [Gym-TORCS](https://github.com/ugo-nama-kun/gym_torcs)
 
-##Results
+## Results
 
 After Iteration 1, crashes after 78 steps
 
